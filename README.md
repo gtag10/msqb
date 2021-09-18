@@ -1,1 +1,2 @@
-# This is the GitHub Repository For msqb.org, a project which hosts websites for quizbowl related projects. 
+# Repository for msqb.org
+This is the GitHub repository for msqb.org, a project that aims to host quizbowl related projects on subpages. 
