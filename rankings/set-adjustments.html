@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" style="border-width: 2px;border-color: var(--bs-table-striped-color);">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MSQBRank</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: #dddbd1;text-align: center;min-height: 494px;">
+    <nav class="navbar navbar-light navbar-expand-md" style="background: #002b7f;height: 70px;">
+        <div class="container-fluid"><a class="navbar-brand" href="/rankings" style="color: #dddbd1;font-family: Roboto, sans-serif;font-weight: bold;font-size: 35px;">MSQBRank</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1" style="color: #dddbd1;"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" style="color: #dddbd1;"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1" style="background: #002b7f;margin-left: -12px;padding-left: 15px;margin-top: -1px;margin-right: -12px;">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="/rankings" style="color: #dddbd1;margin-bottom: -11px;">Current Rankings</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/rankings/pastrankings" style="color: #dddbd1;margin-bottom: -11px;">Past Rankings</a></li>
+                    <li class="nav-item d-md-flex justify-content-md-center">
+                        <div class="nav-item dropdown show" style="margin-top: 8px;margin-bottom: 9px;"><a class="dropdown-toggle d-md-flex justify-content-center align-content-center align-items-md-center" aria-expanded="true" data-bs-toggle="dropdown" href="/rankings/system" style="color: #dddbd1;text-align: justify;padding-top: 8px;padding-bottom: 13px;margin-top: -8px;margin-bottom: 0px;">Our System</a>
+                            <div class="dropdown-menu show" style="background: #dddbd1;"><a class="dropdown-item" href="/rankings/methodology">Methodology</a><a class="dropdown-item" href="/rankings/list-of-tournaments">List of Tournaments</a><a class="dropdown-item" href="/rankings/set-adjustments">Set Adjustments</a></div>
+                        </div>
+                    </li>
+                </ul><a href="/discord"><img class="d-lg-flex justify-content-lg-end" src="assets/img/Discord-Logo-White.png" style="width: 45px;font-size: 22px;margin-bottom: 0px;margin-left: 21px;margin-right: 18px;"></a>
+            </div>
+        </div>
+    </nav>
+    <p class="text-start" style="margin-right: 43px;margin-left: 40px;padding-bottom: 20px;margin-top: -10px;"><br>To ensure the most fair results possible, we adjust sets. This means that we can fairly compare Team A and Team B if Team A plays Set A and Team B plays Set B. We achieve this via links.<br></p>
+    <div><a class="btn btn-primary" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapse-1" href="#collapse-1" role="button" style="background: #002b7f;font-family: Roboto, sans-serif;color: #dddbd1;">Read More</a>
+        <div class="collapse" id="collapse-1">
+            <p class="text-start" style="margin-right: 40px;margin-left: 40px;padding-bottom: 20px;">Let's say that we have three teams, Team A, Team B, Team C,&nbsp; and two sets, Set A, and Set B. Teams A and B played both Set A and Set B, while Team C only played Set B. Let's take the following example results<br></p>
+            <div class="table-responsive" style="margin-right: 40px;margin-left: 41px;border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th style="border-top-style: hidden;"></th>
+                            <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);">Set A PPB</th>
+                            <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);">Set A P/G</th>
+                            <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);">Set B PPB</th>
+                            <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);">Set B P/G</th>
+                            <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-bottom-color: var(--bs-table-striped-color);">PPB Difference</th>
+                            <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-right-color: var(--bs-table-striped-color);">P/G Difference</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="font-weight: bold;border-width: 2px;border-color: var(--bs-table-striped-color);border-top-width: 1px;border-top-color: var(--bs-table-active-color);border-left-width: 4px;">Team A</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">15</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">5</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">11</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">3</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">-4</td>
+                            <td style="border-width: 2px;border-color: var(--bs-gray-900);">-2</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;border-width: 2px;border-color: var(--bs-table-striped-color);border-left-width: 4px;">Team B</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">14</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">4</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">8</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">1</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">-6</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">-3</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;border-right-color: var(--bs-table-striped-color);border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);border-left-width: 4px;border-left-color: var(--bs-table-striped-color);">Team C</td>
+                            <td style="border-bottom-color: var(--bs-table-bg);border-left-width: 2px;border-left-color: var(--bs-table-striped-color);"></td>
+                            <td style="border-bottom-color: var(--bs-table-bg);"></td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">9</td>
+                            <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">1</td>
+                            <td style="border-right-color: var(--bs-table-bg);border-bottom-color: var(--bs-table-bg);"></td>
+                            <td style="border-right-color: var(--bs-table-bg);border-bottom-color: var(--bs-table-bg);border-left-color: var(--bs-table-bg);"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-start" style="margin-right: 40px;margin-left: 40px;margin-top: -10px;max-height: 520px;"><br>By averaging the Points per Bonus (PPB) and Powers per Game (P/G) differences, we find that the links get 4 less PPB (-4) on Set B compared to Set A, and 3 less P/G (-3) on Set B compared to Set A. Assuming we were using Set A as the baseline, or the set that we compare all sets to, Team C's adjusted PPB would be 14, while the adjusted P/G would be 3.5. The adjusted statistics would then be used in all calculations, meaning that Team C could be compared with against any team that only played Set A. Negs per Game is not adjusted due to high variance.<br></p>
+        </div>
+    </div>
+    <hr>
+    <p class="text-center" style="margin-right: 40px;margin-left: 40px;margin-top: -10px;max-height: 520px;"><br>Below are our current set adjustments<br></p>
+    <div class="table-responsive" style="margin-right: 40px;margin-left: 41px;border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);margin-bottom: 103px;">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="border-top-style: hidden;"></th>
+                    <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);">Number of Links</th>
+                    <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);">Teams Played</th>
+                    <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);">Adjusted PPB</th>
+                    <th style="border-width: 2px;border-color: var(--bs-table-striped-color);border-bottom-width: 2px;border-bottom-color: var(--bs-table-striped-color);">Adjusted P/G</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="font-weight: bold;border-width: 2px;border-color: var(--bs-table-striped-color);border-top-width: 1px;border-top-color: var(--bs-table-active-color);border-left-width: 4px;">MS-39</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">153</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">153</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">0</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">0</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;border-width: 2px;border-color: var(--bs-table-striped-color);border-left-width: 4px;">IS-203A</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">25</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">33</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">4.85</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">1.19</td>
+                </tr>
+                <tr>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);border-left-width: 3px;"><strong>IS-205A</strong></td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">37</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">47</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">5.41</td>
+                    <td style="border-width: 2px;border-color: var(--bs-table-striped-color);">1.65</td>
+                </tr>
+                <tr></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="card" style="background: #dddbd1;position: fixed;bottom: 0;left: 0%;right: 0%;">
+        <div class="card-body float-none">
+            <p class="card-text">If you notice an error, or would like to make a comment, please email <a href="mailto:contact@msqb.org">contact@msqb.org</a></p>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+</body>
+
+</html>
